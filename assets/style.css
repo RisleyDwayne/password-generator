@@ -19,6 +19,7 @@ h2.card-header{
 div.card-body{
     background-color: #D6D1B1;
 }
+/* Text area formatting */
 #password {
     background-color: #EEF5DB;
 	padding-top: 10px;
@@ -32,9 +33,17 @@ div.card-body{
 	border-radius: 8px;
 	resize: none;
 	overflow: hidden;
+	font-size: larger;
 }
 
-#generateButton{
+
+/* Button Styling */
+#generate{
     color: #3f3f3f;
     background-color: #b1a871;
+}
+
+#generate:hover{
+	color: #ffffff;
+    background-color: #77714a;
 }

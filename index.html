@@ -16,6 +16,7 @@
 </head>
 
 <body class="d-flex flex-column h-100">
+    
     <main>
         <div class="container">
 
@@ -51,29 +52,29 @@
                                     </div>
 
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="lowercase" unchecked>
-                                        <label class="form-check-label" for="lowercase">Lowercase Letters</label>
+                                        <input class="form-check-input" type="checkbox" id="lowerBox" unchecked>
+                                        <label class="form-check-label" >Lowercase Letters</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="uppercase" unchecked>
-                                        <label class="form-check-label" for="uppercase">Uppercase Letters</label>
+                                        <input class="form-check-input" type="checkbox" id="upperBox" unchecked>
+                                        <label class="form-check-label" >Uppercase Letters</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="numbers" unchecked>
-                                        <label class="form-check-label" for="numbers">Numbers</label>
+                                        <input class="form-check-input" type="checkbox" id="numbersBox" unchecked>
+                                        <label class="form-check-label" >Numbers</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="special" unchecked>
-                                        <label class="form-check-label" for="special">Special Characters</label>
+                                        <input class="form-check-input" type="checkbox" id="specialCharBox" unchecked>
+                                        <label class="form-check-label" >Special Characters</label>
                                     </div>
                                 </div>
 
-                                <!-- Generated password and button -->
+                                <!-- password and button -->
                                 <div class="d-flex flex-column align-content-center">
 
                                     <textarea readonly id="password" placeholder="Your Password"
-                                        aria-label="Generated Password"></textarea>
-                                    <button id="generateButton" class="btn btn-lg">
+                                        aria-label="Password"></textarea>
+                                    <button href = "#" id="generate" class="btn btn-lg">
                                         Generate
                                     </button>
                                 </div>
@@ -83,7 +84,9 @@
                 </div>
             </div>
         </div>
+        
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
