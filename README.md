@@ -5,3 +5,9 @@ Generates a secure password using HTML, CSS, and Javascript. Parameters for the 
 The site can be viewed at https://risleydwayne.github.io/password-generator
 
 ## Screenshots
+
+![image](https://user-images.githubusercontent.com/18751823/86549017-68fac880-bf0c-11ea-8956-7ed2fb99a0ea.png)
+
+![image](https://user-images.githubusercontent.com/18751823/86549026-7021d680-bf0c-11ea-847a-061ffe5009b7.png)
+
+![image](https://user-images.githubusercontent.com/18751823/86549037-76b04e00-bf0c-11ea-9cbb-016dda8038c2.png)
