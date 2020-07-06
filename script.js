@@ -29,16 +29,16 @@ function generatePass() {
 	let passLength = parseInt(lengthCheckbox.value);
 
 	// add selected character types to passChoices
-	if (lowerBox.checked) {
+	if (lowercaseCheckbox.checked) {
 		passChoices = passChoices.concat(lower);
 	}
-	if (upperBox.checked) {
+	if (uppercaseCheckbox.checked) {
 		passChoices = passChoices.concat(upper);
 	}
-	if (numbersBox.checked) {
+	if (numberCheckbox.checked) {
 		passChoices = passChoices.concat(numbers);
 	}
-	if (specialCharBox.checked) {
+	if (specialCharCheckbox.checked) {
 		passChoices = passChoices.concat(specialChar);
 	}
 
